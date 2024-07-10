@@ -24,11 +24,11 @@
 .hero-wrapper h1 {
     font-size: 70px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: darkred;
 }
 .hero-wrapper p {
-   text-align: center;
+   text-align: left;
    font-size: 20px;
    font-weight: bold;
 
@@ -37,14 +37,15 @@
     display: block;
     width: 80%;
     margin-left: 250px;
+    margin-top: 50px;
     /* margin-right: auto; */
 }
 
 .hero-wrapper .form-code input {
     border-radius: 30px;
-     height: 50%;
-     width: 50%;
-    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    /* margin-top: 20px; */
     outline: none;
     border: none;
 }
@@ -59,4 +60,30 @@
     height: 50px;
     margin-top: 30px;
     margin-left: 50px;
+    background-color: aqua;
+    color: blueviolet;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.hero-wrapper .form-code button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    
+}
+
+/* product list */
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.product-list {
+    float: left;
+    width: 33.333%;
 }
